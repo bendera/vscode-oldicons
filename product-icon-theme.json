@@ -83,6 +83,9 @@
     "git-branch": {
       "fontCharacter": "\uea68"
     },
+    "git-branch-changes": {
+      "fontCharacter": "\uea68"
+    },
     "git-branch-create": {
       "fontCharacter": "\uea68"
     },
