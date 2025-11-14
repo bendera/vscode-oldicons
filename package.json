@@ -1,0 +1,45 @@
+{
+  "name": "vscode-oldicons",
+  "displayName": "Old Codicons",
+  "description": "The product icon set that was used until VSCode version 1.105",
+  "version": "0.1.0",
+  "preview": true,
+  "publisher": "adam-bender",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bendera/vscode-oldicons"
+  },
+  "bugs": {
+    "url": "https://github.com/bendera/vscode-oldicons/issues"
+  },
+  "engines": {
+    "vscode": "^1.106.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "icon",
+    "theme",
+    "product",
+    "codicons",
+    "product-icon-theme"
+  ],
+  "contributes": {
+    "productIconThemes": [
+      {
+        "id": "old-codicon",
+        "label": "Old Codicons",
+        "path": "./product-icon-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "copy-font": "cp node_modules/@vscode/codicons/dist/codicon.ttf codicon.ttf",
+    "build": "npm run copy-font && vsce pack"
+  },
+  "devDependencies": {
+    "@vscode/codicons": "0.0.41"
+  }
+}
