@@ -2,7 +2,7 @@
   "name": "vscode-oldicons",
   "displayName": "Old Codicons",
   "description": "The product icon set that was used until VSCode version 1.105",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "preview": true,
   "publisher": "adam-bender",
   "icon": "icon.png",
